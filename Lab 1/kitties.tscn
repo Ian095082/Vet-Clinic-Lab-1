@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://d38vixqmy1wtj"]
+
+[ext_resource type="Texture2D" uid="uid://bfwmf3scqnnx7" path="res://clinic.jpg" id="1_4ohld"]
+[ext_resource type="Texture2D" uid="uid://cji4pnhf2s20r" path="res://cat.jpg" id="2_btrs0"]
+
+[node name="Vet Clnic" type="Node2D" unique_id=1658379051]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=503783872]
+position = Vector2(807.9999, 346.00012)
+scale = Vector2(0.14, 0.1295)
+texture = ExtResource("1_4ohld")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=698380448]
+position = Vector2(242, 285)
+scale = Vector2(0.6534296, 0.566787)
+texture = ExtResource("2_btrs0")
